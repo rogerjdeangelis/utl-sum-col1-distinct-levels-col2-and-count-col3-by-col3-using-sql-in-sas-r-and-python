@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_sum_distinct_count_sql",
+  "source_file": "utl-sum-col1-distinct-levels-col2-and-count-col3-by-col3-using-sql-in-sas-r-and-python.sas",
+  "source_blob_sha": "2bb1d3a85a8b11837bef79cd4af3e4ff74c4760a",
+  "source_commit": "963f919525aa962c03f9e6c03f54d129580d68b1",
+  "notes": "SAS SQL solution: DATA step (cards4, 6 rows level/id/color) + PROC SQL grouping by color with count(distinct id) as ids, sum(level) as most_important, count(*) as records. Only change from upstream: libname sd1 'd:/sd1' dropped in favour of WORK so the bundle is self-contained; the cards4 data and PROC SQL query are byte-identical to upstream. Added a PROC PRINT to render the WANT table the author documents. R/Python/dplyr blocks (%utl_rbeginx/%utl_pybeginx) shell out to external interpreters via the author's personal utl macros and are not SAS-testable in isolation."
+}

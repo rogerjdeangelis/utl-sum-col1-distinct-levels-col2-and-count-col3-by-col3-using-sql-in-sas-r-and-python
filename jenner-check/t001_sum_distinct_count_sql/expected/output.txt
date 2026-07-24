@@ -1,0 +1,7 @@
+
+  Obs  COLOR  IDS  MOST_IMPORTANT  RECORDS
+-----  -----  ---  --------------  -------
+    1  Blue     1               0        2
+    2  Green    2               1        2
+    3  Red      2               2        2
+
